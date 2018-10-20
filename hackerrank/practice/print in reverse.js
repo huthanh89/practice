@@ -49,9 +49,6 @@ const SinglyLinkedList = class {
 };
 
 function reversePrint(head) {
-
-    console.log('>>>', head.data);
-
     if(head.next == null){
         console.log(head.data)
         return;
@@ -64,6 +61,16 @@ function reversePrint(head) {
 
 }
 
+function printLinkedList(head) {
+    console.log(head.data);
+    if(head.next==null){
+        return;
+    }
+    else{
+        printLinkedList(head.next);
+    }
+
+}
 
 let list = new SinglyLinkedList();
 
@@ -72,3 +79,4 @@ list.insertNode(2);
 list.insertNode(3);
 
 reversePrint(list.head);
+//printLinkedList(list.head);
