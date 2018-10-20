@@ -40,7 +40,6 @@ function round5(x)
 
 function gradingStudents(grades) {
 
-
     let result = [];
 
     grades.forEach(function(grade){
@@ -67,7 +66,6 @@ function gradingStudents(grades) {
     console.log(result);
 
     return result;
-
 }
 
 let inputs = [73, 67, 38, 33];

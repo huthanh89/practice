@@ -33,9 +33,8 @@ Sum across the secondary diagonal: 4 + 5 + 10 = 19
 Difference: |4 - 19| = 15
 -------------------------------------------
 
-
-iterate row i
-    iterate column j
+iterate row
+    iterate column
         sumA = 0,0 + 1,1 + 2,2
         sumB = 0,2 + 1,1 + 2,0
 

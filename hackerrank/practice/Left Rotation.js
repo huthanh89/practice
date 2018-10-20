@@ -28,7 +28,6 @@ Expected OutputDownload
 
 function rotate(inputs, index){
 
-
     let first = inputs.splice(0, index);
 
     let second = inputs;
