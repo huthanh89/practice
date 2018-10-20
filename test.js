@@ -41,7 +41,6 @@ function miniMaxSum(arr) {
         result.push(sum);
     });
 
-
     let min = result[0];
     let max = result[0];
 

@@ -12,10 +12,33 @@ Sample Output
 
 5 1 2 3 4
 
-------------------
+Input (stdin)Download
+20 10
+41 73 89 7 10 1 59 58 84 77 77 97 58 1 86 58 26 10 86 51
 
-save the last element
-shift the array to the right
-then store the element to first position
+Download
+20 10
+41 73 89 7 10 1 59 58 84 77 77 97 58 1 86 58 26 10 86 51
+Expected OutputDownload
+77 97 58 1 86 58 26 10 86 51 41 73 89 7 10 1 59 58 84 77
+
 
 */
+
+
+function rotate(inputs, index){
+
+
+    let first = inputs.splice(0, index);
+
+    let second = inputs;
+
+    let result = second.join(' ') + ' ' + first.join(' ');
+
+    return result;
+}
+
+let inputs = [41, 73, 89, 7, 10, 1, 59, 58, 84, 77, 77, 97, 58, 1, 86, 58, 26, 10, 86, 51];
+let rotation = 10;
+
+rotate(inputs, index);
