@@ -57,7 +57,7 @@ function minMaxSum(arr){
         }
     });
 
-    return [min, max];
+    return [min, max].join(' ');
 }
 
 console.log(minMaxSum(inputs));
