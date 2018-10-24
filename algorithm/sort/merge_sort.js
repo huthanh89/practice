@@ -50,6 +50,11 @@ function mergeSort(arr){
 
 let test = [6, 2, 3, 5, 6, 2, 6, 7, 3, 4];
 
+/*
+for(let i=0; i< 100; i++){
+    test.push(Math.floor(Math.random() * 100));
+}
+*/
 let result = mergeSort(test);
 
 console.log(result);
