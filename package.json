@@ -1,0 +1,24 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huthanh89/practice.git"
+  },
+  "author": "Thanh Huynh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huthanh89/practice/issues"
+  },
+  "homepage": "https://github.com/huthanh89/practice#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.2.0"
+  }
+}
